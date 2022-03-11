@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\b126806f215da4ee65f8707fd03ca615\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0C6C4376-0A8E-36F0-AEFB-B383C13B6F24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,244 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/vcpkg-2020.11-1/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "InfinityPcre/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindBZip2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/cmake/FindReadline.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/cmake/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/cmake/FindEditline.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/cmake/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/config-cmake.h.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src/pcre2.h.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src/pcre2_chartables.c.dist"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug",
+		"source" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

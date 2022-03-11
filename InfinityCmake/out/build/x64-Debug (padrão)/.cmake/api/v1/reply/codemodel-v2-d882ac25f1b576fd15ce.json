@@ -1,0 +1,57 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "InfinityPcre",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "InfinityPcre"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "InfinityCmake"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x64-Debug (padrão)",
+		"source" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

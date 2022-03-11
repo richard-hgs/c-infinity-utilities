@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B73061BD-5EFD-3680-996D-DFD4F43DBD81}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>pcre2-16-x86</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pcre2-16</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pcre2-16</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pcre2-16</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pcre2-16</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <OutDir>..\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <OutDir>..\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Pcre2-10.23-x86\src;..\Pcre2-x86;..\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Pcre2-10.23-x86\src;..\Pcre2-x86;..\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Pcre2-10.23-x86\src;..\Pcre2-x86;..\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Pcre2-10.23-x86\src;..\Pcre2-x86;..\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE2_CODE_UNIT_WIDTH=16;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";pcre2_16_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Pcre2-10.23-x86\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Programas\Instalados\Cmake\bin\cmake.exe -SD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86 -BD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86 --check-stamp-file D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckTypeSize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindBZip2.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindZLIB.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindEditline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindPackageHandleStandardArgs.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindReadline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\config-cmake.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_chartables.c.dist;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeRCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Programas\Instalados\Cmake\bin\cmake.exe -SD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86 -BD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86 --check-stamp-file D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckTypeSize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindBZip2.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindZLIB.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindEditline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindPackageHandleStandardArgs.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindReadline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\config-cmake.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_chartables.c.dist;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeRCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Programas\Instalados\Cmake\bin\cmake.exe -SD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86 -BD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86 --check-stamp-file D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckTypeSize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindBZip2.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindZLIB.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindEditline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindPackageHandleStandardArgs.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindReadline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\config-cmake.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_chartables.c.dist;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeRCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Programas\Instalados\Cmake\bin\cmake.exe -SD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86 -BD:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86 --check-stamp-file D:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\CheckTypeSize.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindBZip2.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\FindZLIB.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Programas\Instalados\Cmake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindEditline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindPackageHandleStandardArgs.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\cmake\FindReadline.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\config-cmake.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2.h.in;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_chartables.c.dist;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeRCCompiler.cmake;D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\3.19.7\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\pcre2.h" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_auto_possess.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\pcre2_chartables.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_compile.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_config.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_context.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_dfa_match.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_error.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_find_bracket.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_jit_compile.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_maketables.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_match.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_match_data.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_newline.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_ord2utf.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_pattern_info.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_serialize.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_string_utils.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_study.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_substitute.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_substring.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_tables.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_ucd.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_valid_utf.c" />
+    <ClCompile Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2_xclass.c" />
+    <ClInclude Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-x86\ZERO_CHECK.vcxproj">
+      <Project>{2AA3E62B-62D8-3B41-BB82-8A4EB818BCDA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

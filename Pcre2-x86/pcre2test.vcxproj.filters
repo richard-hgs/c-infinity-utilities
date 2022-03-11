@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\src\pcre2test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Programming\VSProjects\InfinityProjectsCpp\Pcre2-10.23-x86\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4456E63D-9366-31F4-AA55-FDEAD5C9D49D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

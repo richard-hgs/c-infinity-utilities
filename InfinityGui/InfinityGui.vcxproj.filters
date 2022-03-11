@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Dialogs">
+      <UniqueIdentifier>{e50e4cfd-f7f0-4969-9fba-0c2f5fe36aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views">
+      <UniqueIdentifier>{63628dbd-5b50-4fe3-9211-7fbd0bbbdde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\View">
+      <UniqueIdentifier>{14b91d63-8f66-427b-aad0-146fb5ffc00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\TextView">
+      <UniqueIdentifier>{1ae95d0c-b177-448e-a34f-072ff4415ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\InfinityGdiPlus">
+      <UniqueIdentifier>{2560ec8f-a1d2-4247-99c8-fb9a271fccd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\LinearLayout">
+      <UniqueIdentifier>{42c684ce-4e43-44bf-8760-46424c1f29e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\EditText">
+      <UniqueIdentifier>{51829e31-7506-42cb-93f8-d4882d609cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\Button">
+      <UniqueIdentifier>{5200a9ca-47ea-4024-89c1-351ff9d88832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Views\FilePicker">
+      <UniqueIdentifier>{cdc30394-9d77-4e8a-96cb-59b33292fb64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDialog.h">
+      <Filter>Arquivos de Origem\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Arquivos de Origem\Views\View</Filter>
+    </ClInclude>
+    <ClInclude Include="TextView.h">
+      <Filter>Arquivos de Origem\Views\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="InfinityGdiPlus.h">
+      <Filter>Arquivos de Origem\Views\InfinityGdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearLayout.h">
+      <Filter>Arquivos de Origem\Views\LinearLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="EditText.h">
+      <Filter>Arquivos de Origem\Views\EditText</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Arquivos de Origem\Views\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePicker.h">
+      <Filter>Arquivos de Origem\Views\FilePicker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDialog.cpp">
+      <Filter>Arquivos de Origem\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Arquivos de Origem\Views\View</Filter>
+    </ClCompile>
+    <ClCompile Include="TextView.cpp">
+      <Filter>Arquivos de Origem\Views\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="InfinityGdiPlus.cpp">
+      <Filter>Arquivos de Origem\Views\InfinityGdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearLayout.cpp">
+      <Filter>Arquivos de Origem\Views\LinearLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="EditText.cpp">
+      <Filter>Arquivos de Origem\Views\EditText</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Arquivos de Origem\Views\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePicker.cpp">
+      <Filter>Arquivos de Origem\Views\FilePicker</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

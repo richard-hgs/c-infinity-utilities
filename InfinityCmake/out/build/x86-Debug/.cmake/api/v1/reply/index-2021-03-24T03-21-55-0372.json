@@ -1,0 +1,110 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+			"cpack" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe",
+			"ctest" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
+			"root" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 18,
+			"patch" : 20081302,
+			"string" : "3.18.20081302-MSVC_2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-90289cf8e42a3b4802af.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 1
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-b3955928c4cca561bef1.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-c6de99c022e959b8e9a8.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-MicrosoftVS" : 
+		{
+			"query.json" : 
+			{
+				"requests" : 
+				[
+					{
+						"kind" : "cache",
+						"version" : 2
+					},
+					{
+						"kind" : "cmakeFiles",
+						"version" : 1
+					},
+					{
+						"kind" : "codemodel",
+						"version" : 2
+					}
+				],
+				"responses" : 
+				[
+					{
+						"jsonFile" : "cache-v2-b3955928c4cca561bef1.json",
+						"kind" : "cache",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "cmakeFiles-v1-c6de99c022e959b8e9a8.json",
+						"kind" : "cmakeFiles",
+						"version" : 
+						{
+							"major" : 1,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "codemodel-v2-90289cf8e42a3b4802af.json",
+						"kind" : "codemodel",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

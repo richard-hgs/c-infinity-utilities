@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "InfinityPcre",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "InfinityPcre"
+				},
+				{
+					"build" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "InfinityCmake"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "PCRE2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "pcre2-8::@dc4ad1d11fbc892ebada",
+					"jsonFile" : "target-pcre2-8-Debug-9083102d81c5b2205347.json",
+					"name" : "pcre2-8",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pcre2-posix::@dc4ad1d11fbc892ebada",
+					"jsonFile" : "target-pcre2-posix-Debug-0c8f0e5225779fac2803.json",
+					"name" : "pcre2-posix",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pcre2grep::@dc4ad1d11fbc892ebada",
+					"jsonFile" : "target-pcre2grep-Debug-b9ab1ca8b0ba08cc73ae.json",
+					"name" : "pcre2grep",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pcre2test::@dc4ad1d11fbc892ebada",
+					"jsonFile" : "target-pcre2test-Debug-639e7f02fbcf85adf415.json",
+					"name" : "pcre2test",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug",
+		"source" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

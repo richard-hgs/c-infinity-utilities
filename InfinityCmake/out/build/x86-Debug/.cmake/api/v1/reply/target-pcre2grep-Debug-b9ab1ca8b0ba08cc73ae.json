@@ -1,0 +1,199 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/pcre2grep.exe"
+		},
+		{
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/pcre2grep.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"ADD_EXECUTABLE",
+			"INSTALL",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"SET_PROPERTY"
+		],
+		"files" : 
+		[
+			"H:/Programming/vcpkg-2020.11-1/scripts/buildsystems/vcpkg.cmake",
+			"H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 569,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 702,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 573,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 492,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 570,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 495,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -IH:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src /MDd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "PCRE2_CODE_UNIT_WIDTH=8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "pcre2-posix::@dc4ad1d11fbc892ebada"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "pcre2-8::@dc4ad1d11fbc892ebada"
+		}
+	],
+	"id" : "pcre2grep::@dc4ad1d11fbc892ebada",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/install/x86-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 -IH:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "pcre2-posixd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "pcre2-8d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "pcre2grep",
+	"nameOnDisk" : "pcre2grep.exe",
+	"paths" : 
+	{
+		"build" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86",
+		"source" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src/pcre2grep.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

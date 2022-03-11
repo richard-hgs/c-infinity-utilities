@@ -1,0 +1,147 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug (padrão)/CMakeFiles/3.18.20081302-MSVC_2/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "H:/Programming/vcpkg-2020.11-1/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug (padrão)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug (padrão)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug (padrão)/CMakeFiles/3.18.20081302-MSVC_2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "H:/Programas/Instalados/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "InfinityPcre/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x64-Debug (padrão)",
+		"source" : "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

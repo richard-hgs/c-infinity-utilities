@@ -1,0 +1,6 @@
+H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/pcre2-16.dir
+H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/pcre2test.dir
+H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/INSTALL.dir
+H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/RUN_TESTS.dir
+H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/ALL_BUILD.dir
+H:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-x86/CMakeFiles/ZERO_CHECK.dir
