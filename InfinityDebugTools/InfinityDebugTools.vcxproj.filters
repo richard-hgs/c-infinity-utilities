@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\DiaTools">
+      <UniqueIdentifier>{58d06ccb-dee4-44d1-a97b-03918f75b2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Memory">
+      <UniqueIdentifier>{9edea370-6f77-42ae-8241-6c8f1366cc66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InfinityDebugTools.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia2Tools.cpp">
+      <Filter>Arquivos de Origem\DiaTools</Filter>
+    </ClCompile>
+    <ClCompile Include="CDiaBSTR.cpp">
+      <Filter>Arquivos de Origem\DiaTools</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia2ToolsEnums.cpp">
+      <Filter>Arquivos de Origem\DiaTools</Filter>
+    </ClCompile>
+    <ClCompile Include="InfinityNative.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWalker.h">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia2Tools.h">
+      <Filter>Arquivos de Origem\DiaTools</Filter>
+    </ClInclude>
+    <ClInclude Include="CDiaBSTR.h">
+      <Filter>Arquivos de Origem\DiaTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia2ToolsEnums.h">
+      <Filter>Arquivos de Origem\DiaTools</Filter>
+    </ClInclude>
+    <ClInclude Include="InfinityNative.h">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="MASMStackTrace.asm">
+      <Filter>Arquivos de Origem</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
