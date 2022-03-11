@@ -1,0 +1,36 @@
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dae89 && [1/2] Building C object CMakeFiles\cmTC_dae89.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_dae89.dir/CheckIncludeFile.c.obj 
+H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -IH:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_dae89.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_dae89.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Não é possível abrir arquivo incluir: 'dirent.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_b6cb0 && [1/2] Building C object CMakeFiles\cmTC_b6cb0.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_b6cb0.dir/CheckIncludeFile.c.obj 
+H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -IH:/Programming/VSProjects/InfinityProjectsCpp/Pcre2-10.23-x86/src  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_b6cb0.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_b6cb0.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Não é possível abrir arquivo incluir: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_9cd45 && [1/2] Building C object CMakeFiles\cmTC_9cd45.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_9cd45.exe
+FAILED: cmTC_9cd45.exe 
+cmd.exe /C "cd . && H:\Programas\Instalados\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_9cd45.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo CMakeFiles\cmTC_9cd45.dir\CheckFunctionExists.c.obj  /out:cmTC_9cd45.exe /implib:cmTC_9cd45.lib /pdb:cmTC_9cd45.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D H:\Programming\VSProjects\InfinityProjectsCpp\InfinityCmake\out\build\x86-Debug\CMakeFiles\CMakeTmp && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file H:/Programming/vcpkg-2020.11-1/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp/cmTC_9cd45.exe -installedDir H:/Programming/vcpkg-2020.11-1/installed/x86-windows/debug/bin -OutVariable out""
+LINK Pass 1: command "H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo CMakeFiles\cmTC_9cd45.dir\CheckFunctionExists.c.obj /out:cmTC_9cd45.exe /implib:cmTC_9cd45.lib /pdb:cmTC_9cd45.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_9cd45.dir/intermediate.manifest CMakeFiles\cmTC_9cd45.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: símbolo externo não resolvido, _bcopy, referenciado na função _main
+cmTC_9cd45.exe : fatal error LNK1120: 1 externo não resolvidos
+ninja: build stopped: subcommand failed.
+
+
+

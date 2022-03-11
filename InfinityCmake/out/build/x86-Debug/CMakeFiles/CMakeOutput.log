@@ -1,0 +1,425 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: H:/Programas/Instalados/VisualStudio/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Versão 19.28.29335 para x86
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29335.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: H:/Programas/Instalados/VisualStudio/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Versão 19.28.29335 para x86
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29335.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: H:/Programas/Instalados/VisualStudio/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Versão 19.28.29335 para x86
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29335.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: H:/Programas/Instalados/VisualStudio/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Versão 19.28.29335 para x86
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29335.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_f6fc3 && [1/2] Building C object CMakeFiles\cmTC_f6fc3.dir\CMakeCCompilerABI.c.obj
+Observação: incluindo arquivo: H:\Programas\Instalados\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCompilerABI.h
+[2/2] Linking C executable cmTC_f6fc3.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_b4554 && [1/2] Building CXX object CMakeFiles\cmTC_b4554.dir\CMakeCXXCompilerABI.cpp.obj
+Observação: incluindo arquivo: H:\Programas\Instalados\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCompilerABI.h
+[2/2] Linking CXX executable cmTC_b4554.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dc271 && [1/2] Building C object CMakeFiles\cmTC_dc271.dir\CheckIncludeFile.c.obj
+Observação: incluindo arquivo: H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\stdint.h
+Observação: incluindo arquivo:  H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vcruntime.h
+Observação: incluindo arquivo:   H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\sal.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\concurrencysal.h
+Observação: incluindo arquivo:   H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vadefs.h
+[2/2] Linking C executable cmTC_dc271.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_cda4d && [1/2] Building C object CMakeFiles\cmTC_cda4d.dir\CheckIncludeFile.c.obj
+Observação: incluindo arquivo: C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\inttypes.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
+Observação: incluindo arquivo:   H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vcruntime.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\sal.h
+Observação: incluindo arquivo:     H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\concurrencysal.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vadefs.h
+Observação: incluindo arquivo:  H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\stdint.h
+[2/2] Linking C executable cmTC_cda4d.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_4b294 && [1/2] Building C object CMakeFiles\cmTC_4b294.dir\CheckIncludeFile.c.obj
+Observação: incluindo arquivo: C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/stat.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
+Observação: incluindo arquivo:   H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vcruntime.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\sal.h
+Observação: incluindo arquivo:     H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\concurrencysal.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vadefs.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/types.h
+[2/2] Linking C executable cmTC_4b294.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_dc176 && [1/2] Building C object CMakeFiles\cmTC_dc176.dir\CheckIncludeFile.c.obj
+Observação: incluindo arquivo: C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/types.h
+[2/2] Linking C executable cmTC_dc176.exe
+
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_6580f && [1/2] Building C object CMakeFiles\cmTC_6580f.dir\CheckIncludeFile.c.obj
+Observação: incluindo arquivo: C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\windows.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winapifamily.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winpackagefamily.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdkddkver.h
+Observação: incluindo arquivo:  H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\excpt.h
+Observação: incluindo arquivo:   H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vcruntime.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\sal.h
+Observação: incluindo arquivo:     H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\concurrencysal.h
+Observação: incluindo arquivo:    H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vadefs.h
+Observação: incluindo arquivo:  H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\stdarg.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\windef.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\minwindef.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings_strict.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings_undef.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\driverspecs.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdv_driverspecs.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnt.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\ctype.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wctype.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\kernelspecs.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\basetsd.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\guiddef.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\string.h
+Observação: incluindo arquivo:       C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memory.h
+Observação: incluindo arquivo:        C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memcpy_s.h
+Observação: incluindo arquivo:         C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\errno.h
+Observação: incluindo arquivo:         H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\vcruntime_string.h
+Observação: incluindo arquivo:       C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstring.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\apiset.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\ktmtypes.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winbase.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\apisetcconv.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\minwinbase.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\apiquery2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\processenv.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\fileapifromapp.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\fileapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\debugapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\utilapiset.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\handleapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\errhandlingapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\fibersapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\namedpipeapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\profileapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\heapapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ioapiset.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\synchapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\interlockedapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\processthreadsapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\sysinfoapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\memoryapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\enclaveapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\threadpoollegacyapiset.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\threadpoolapiset.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\jobapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\jobapi2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wow64apiset.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\libloaderapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\securitybaseapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\namespaceapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\systemtopologyapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\processtopologyapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\securityappcontainer.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\realtimeapiset.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winerror.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\timezoneapi.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wingdi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winuser.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\tvout.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnls.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\datetimeapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\stringapiset.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnls.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wincon.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wincontypes.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\consoleapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\consoleapi2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\consoleapi3.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winver.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\verrsrc.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winreg.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\reason.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnetwk.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\wnnc.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\cderr.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\dde.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ddeml.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\dlgs.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\lzexpand.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsystem.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mciapi.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmiscapi.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmiscapi2.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\playsoundapi.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmeapi.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\timeapi.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\joystickapi.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mmsyscom.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\nb30.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpc.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpcdce.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpcdcep.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\rpcnsi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpcnterr.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpcasync.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\shellapi.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winperf.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winsock.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\inaddr.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wincrypt.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\bcrypt.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ncrypt.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\dpapi.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winefs.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winscard.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\wtypes.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpcndr.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\rpcnsip.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\rpcsal.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\wtypesbase.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\guiddef.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winioctl.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winsmcrd.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winspool.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\prsht.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ole2.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\objbase.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\combaseapi.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdlib.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_malloc.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_search.h
+Observação: incluindo arquivo:       C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stddef.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdlib.h
+Observação: incluindo arquivo:      H:\Programas\Instalados\VisualStudio\VC\Tools\MSVC\14.28.29333\include\limits.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\unknwnbase.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\objidlbase.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\guiddef.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\cguid.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\coml2api.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\objidl.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\unknwn.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\propidlbase.h
+Observação: incluindo arquivo:      C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\oaidl.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\urlmon.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\oleidl.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\servprov.h
+Observação: incluindo arquivo:     C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\msxml.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\propidl.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\oleauto.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack8.h
+Observação: incluindo arquivo:    C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\commdlg.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\prsht.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\stralign.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winsvc.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\mcx.h
+Observação: incluindo arquivo:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\imm.h
+Observação: incluindo arquivo:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ime_cmodes.h
+[2/2] Linking C executable cmTC_6580f.exe
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_f12d8 && [1/2] Building C object CMakeFiles\cmTC_f12d8.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_f12d8.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: H:/Programming/VSProjects/InfinityProjectsCpp/InfinityCmake/out/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):H:\PROGRAMAS\INSTALADOS\VISUALSTUDIO\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_fa3cb && [1/2] Building C object CMakeFiles\cmTC_fa3cb.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_fa3cb.exe
+
+
+
