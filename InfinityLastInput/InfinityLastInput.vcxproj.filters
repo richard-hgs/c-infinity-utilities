@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\utils">
+      <UniqueIdentifier>{3730aed5-2d1d-4338-b90f-b10382aa781f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\utils\array">
+      <UniqueIdentifier>{a7f62051-6734-40df-a0fd-4266554d095e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\utils\string">
+      <UniqueIdentifier>{6ddef76b-7ca2-4938-b85c-15e327449252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\utils\keyboard">
+      <UniqueIdentifier>{671ba478-40c8-4cbe-9be0-c36f7c7b582e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InfinityLastInput.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Arquivos de Origem\utils\string</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInfo.cpp">
+      <Filter>Arquivos de Origem\utils\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoardUtils.cpp">
+      <Filter>Arquivos de Origem\utils\keyboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Arquivos de Origem\utils\array</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Arquivos de Origem\utils\string</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInfo.h">
+      <Filter>Arquivos de Origem\utils\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoardUtils.h">
+      <Filter>Arquivos de Origem\utils\keyboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

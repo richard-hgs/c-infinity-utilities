@@ -1,0 +1,12 @@
+﻿  InfinityPcre.cpp
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(55,10): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 2 tem o tipo 'PCRE2_UCHAR16 *'
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(25,11): warning C4101: 'newline': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(17,6): warning C4101: 'find_all': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(19,6): warning C4101: 'namecount': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(15,6): warning C4101: 'crlf_is_newline': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(20,6): warning C4101: 'name_entry_size': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(24,11): warning C4101: 'option_bits': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(22,6): warning C4101: 'utf8': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(13,13): warning C4101: 'name_table': variável local não referenciada
+H:\Programming\VSProjects\InfinityProjectsCpp\InfinityPcre\InfinityPcre.cpp(133): warning C4715: 'testPcre': nem todos os caminhos de controle retornam um valor
+  InfinityPcre.vcxproj -> H:\Programming\VSProjects\InfinityProjectsCpp\x64\Debug\InfinityPcre.dll
