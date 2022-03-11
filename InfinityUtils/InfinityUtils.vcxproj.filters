@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\StringUtils">
+      <UniqueIdentifier>{b94807cc-271b-4e7b-910c-46d5f9093972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Log">
+      <UniqueIdentifier>{9395ba68-7af2-4747-8b07-d8e8b8ee3f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\TcpUtils">
+      <UniqueIdentifier>{dd873bf3-f087-4ecf-82f0-a8f6b4f759f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\TemplateUtils">
+      <UniqueIdentifier>{a57bfe87-497b-4fb5-881e-db1e6bdd8fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Thread">
+      <UniqueIdentifier>{62a75ca2-74be-44b2-a9bb-f7f2bee4f19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Thread\InfinityThread">
+      <UniqueIdentifier>{c45f7a77-9cd1-4adb-bf93-dfa23bead822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Thread\ThreadUtils">
+      <UniqueIdentifier>{9ca28e4f-e665-47f5-9d1b-8241408ffbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\FileUtils">
+      <UniqueIdentifier>{b16a38dc-d923-4700-a4cf-f1dedd29f98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\JsonUtils">
+      <UniqueIdentifier>{f51727f8-bc5d-41c1-8b34-4b619ffca9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Object">
+      <UniqueIdentifier>{276dafb3-e20f-49d0-a913-a60ee245b560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\ArrayObject">
+      <UniqueIdentifier>{4143d422-e4ca-4053-b88c-ea01e90686ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\MapObject">
+      <UniqueIdentifier>{4f2102d3-d41c-4983-a9c5-d0f29a7b6f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\RedBlackTree">
+      <UniqueIdentifier>{28a57774-7dcb-49ac-83db-b5b5506be423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\CliUtils">
+      <UniqueIdentifier>{9f0335a5-eee2-4b4d-a992-117dc297a31e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Arquivos de Origem\StringUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Arquivos de Origem\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpUtils.h">
+      <Filter>Arquivos de Origem\TcpUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtils.h">
+      <Filter>Arquivos de Origem\TemplateUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="InfinityThread.h">
+      <Filter>Arquivos de Origem\Thread\InfinityThread</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Arquivos de Origem\FileUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonUtils.h">
+      <Filter>Arquivos de Origem\JsonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Arquivos de Origem\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayObject.h">
+      <Filter>Arquivos de Origem\ArrayObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBlackTree.h">
+      <Filter>Arquivos de Origem\RedBlackTree</Filter>
+    </ClInclude>
+    <ClInclude Include="CliUtils.h">
+      <Filter>Arquivos de Origem\CliUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Arquivos de Origem\StringUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Arquivos de Origem\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpUtils.cpp">
+      <Filter>Arquivos de Origem\TcpUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="InfinityThread.cpp">
+      <Filter>Arquivos de Origem\Thread\InfinityThread</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Arquivos de Origem\FileUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Arquivos de Origem\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayObject.cpp">
+      <Filter>Arquivos de Origem\ArrayObject</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBlackTree.cpp">
+      <Filter>Arquivos de Origem\RedBlackTree</Filter>
+    </ClCompile>
+    <ClCompile Include="CliUtils.cpp">
+      <Filter>Arquivos de Origem\CliUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
