@@ -23,7 +23,8 @@ C++ Utilities, DLL for GUI, Layout Managers, PDB Symbol Parser, Input(Mouse doub
       wmic diskdrive list brief
       This will list your drives select one to write knowing that YOU CAN LOSE YOUR DATA IN THIS DISK BE CAREFUL.
  - Usage Example: InfinityArchiveTools --write --drive \\?\PhysicalDrive999 --drive-type 2 --input-file "build\floppy.img" --sectors 512
-      This command will write the data of floppy.img bin into my Pendrive in binary form without file system.
+     
+     This command will write the data of floppy.img bin into a Pendrive in binary form without file system.
 
 ## InfinityLastInput - Receive input keys and mouse events
  - Can disable the input events, i created this console app to fix mouse click my mouse was having a problem of double click in less than 100ms
