@@ -1,0 +1,3 @@
+﻿  InfinityArchiveTools.cpp
+D:\Programming\VSProjects\InfinityProjectsCpp\InfinityArchiveTools\InfinityArchiveTools.cpp(237,9): warning C4102: 'Exit': rótulo não referenciado
+  InfinityArchiveTools.vcxproj -> D:\Programming\VSProjects\InfinityProjectsCpp\Debug\InfinityArchiveTools.exe
