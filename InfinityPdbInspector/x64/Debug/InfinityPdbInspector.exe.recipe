@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>H:\Programming\VSProjects\InfinityProjectsCpp\x64\Debug\InfinityUtils.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>H:\Programming\VSProjects\InfinityProjectsCpp\x64\Debug\InfinityGui.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>H:\Programming\VSProjects\InfinityProjectsCpp\x64\Debug\InfinityPdbParser.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>H:\Programming\VSProjects\InfinityProjectsCpp\x64\Debug\InfinityPdbInspector.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

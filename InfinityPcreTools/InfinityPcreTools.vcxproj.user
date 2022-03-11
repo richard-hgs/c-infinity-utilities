@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>--regex "(?&lt;line_break&gt;\\N)*(?&lt;function&gt;{+\\\\+[a-z0-9]+(\(+[0-9,]+\)+)*)*(?&lt;text&gt;[a-zA-Z 0-9\s]+)*(?![^{]*}|[^{}])*" --text "Would you like to join the anime club?" -g</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>--regex "(?&lt;line_break&gt;\\N)*(?&lt;function&gt;{+\\\\+[a-z0-9]+(\(+[0-9,]+\)+)*)*(?&lt;text&gt;[a-zA-Z 0-9\s]+)*(?![^{]*}|[^{}])*" --text "Would you like to join the anime club?" -g</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--regex "(?&lt;line_break&gt;\\N)*(?&lt;function&gt;{+\\\\+[a-z0-9]+(\(+[0-9,]+\)+)*)*(?&lt;text&gt;[a-zA-Z 0-9\s]+)*(?![^{]*}|[^{}])*" --text "Would you like to join the anime club?" -g</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>--regex "(?&lt;line_break&gt;\\N)*(?&lt;function&gt;{+\\\\+[a-z0-9]+(\(+[0-9,]+\)+)*)*(?&lt;text&gt;[a-zA-Z 0-9\s]+)*(?![^{]*}|[^{}])*" --text "Would you like to join the anime club?" -g</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

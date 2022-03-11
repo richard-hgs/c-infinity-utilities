@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Programming\VSProjects\InfinityProjectsCpp\Debug\InfinityCrashlytics.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming\VSProjects\InfinityProjectsCpp\Debug\InfinityUtils.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming\VSProjects\InfinityProjectsCpp\Debug\pcre2-16.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>H:\Programming\VSProjects\InfinityProjectsCpp\x64\Debug\pcre2-16.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming\VSProjects\InfinityProjectsCpp\Debug\InfinityPcreTools.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
